@@ -24,7 +24,7 @@ export const About = (props:AboutMeProps) => {
                 <p className="about__description-heading">
                     A Bit About Me
                 </p>
-                <p className="about__description-subheading">
+                <p className="about__description-content">
                     Hi there, I am <strong>Emmanuel Victor,</strong> a Website developer.
                 </p>
                 <p className="about__description-content">

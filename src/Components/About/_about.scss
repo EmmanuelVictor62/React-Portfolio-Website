@@ -57,6 +57,13 @@
 
         @include respond(mobile-screen){
             text-align: center;
+            font-size: 29px;
+        }
+    }
+
+    &-content{
+        @include respond(mobile-screen){
+            font-size: 18px;
         }
     }
    }
