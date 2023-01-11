@@ -1,26 +1,55 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React,{useState} from 'react';
+import './_app.scss';
+import { About } from './Components/About';
+import { Contact } from './Components/Contact';
+import Header from './Components/Header/index';
+import { Home } from './Components/Home '
+import { Portfolio } from './Components/Portfolio';
+import { Services } from './Components/Services';
+import { Skills } from './Components/Skills';
+import { Testimonial } from './Components/Testimonial';
+// import "swiper/css/bundle";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+function App(){
+  const [theme, setTheme] = useState(false)
+
+  const toggleMode = () => {
+    setTheme(prevTheme => !prevTheme)
+  }
+  
+  return(
+    <div className='app' data-toggle={theme}>
+      <div className='app__header-wrapper'>
+        <Header 
+          name='RoyalManuel'
+          toggle={theme}
+          onclick={toggleMode}
+          theme={theme}
+        />
+      </div>
+      <div className='app__home'>
+        <Home 
+          toggle={theme}
+        />
+      </div>
+      <About
+        toggle={theme} 
+      />
+      <Services 
+        toggle={theme} 
+      />
+      <Skills 
+        toggle={theme}
+      />
+      <Portfolio />
+      <Testimonial 
+        toggle={theme}
+      />
+      <Contact 
+        toggle={theme}
+      />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
