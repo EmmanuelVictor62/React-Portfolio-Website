@@ -72,13 +72,13 @@
         animation: fadeIn 2s ease 0s 1 normal forwards;
 
         @include respond(mobile-screen){
-            @include font-size(20px);
+            @include font-size(18px);
             line-height: 40px;
             width: 89%;
         }
 
         @include respond(tablet-screen){
-            @include font-size(25px);
+            @include font-size(20px);
         }
     }
 
