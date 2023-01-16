@@ -64,6 +64,7 @@
     &-content{
         @include respond(mobile-screen){
             font-size: 18px;
+            line-height: 28px;
         }
     }
    }

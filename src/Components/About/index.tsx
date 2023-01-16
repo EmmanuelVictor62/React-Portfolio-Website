@@ -25,29 +25,37 @@ export const About = (props:AboutMeProps) => {
                     A Bit About Me
                 </p>
                 <p className="about__description-content">
-                    Hi there, I am <strong>Emmanuel Victor,</strong> a Website developer.
+                    Hi there, I am <strong>Emmanuel Victor,</strong> a highly 
+                    motivated frontend developer with 2 years of experience in 
+                    creating and maintaining high-quality, 
+                    responsive websites for a variety of clients.
                 </p>
                 <p className="about__description-content">
-                    I am specialized in the organic and creative side of 
-                    Website Development, focusing on content creation, 
-                    search engine optimization, and responsiveness.
+                    I have a strong background in web design, 
+                    user experience, and search engine optimization, 
+                    and I am passionate about creating visually 
+                    appealing and user-friendly websites that are 
+                    optimized for search engines.
                 </p>
                 <p className="about__description-content">
-                    Of all that, I love reading, travelling, exploring places and researching. 
-                    I am a fast Learner, able to pick up new skills and learn adapt to new Work experience.
-                    I am passionate, multi-talented and expressive with a natural ability to lead.
+                    I have a solid understanding of WordPress, HTML, CSS, JavaScript, React.js,
+                    React redux, Scss, Storybookjs and VueJS.
                 </p>
                 <p className="about__description-content">
-                    I do not like to define myself by the work I have done, but by the new challenges ahead,
-                    the skills that can be thought and the person I will become afterwards. I prefer to keep 
-                    learning and challenging myself to become better.
+                    I am a team player and I am able to work well under pressure, 
+                    always meeting deadlines and producing high-quality work.
+                </p>
+                <p className="about__description-content">
+                    Whether working on a small brochure website or a 
+                    large e-commerce platform, I am dedicated to producing high-quality 
+                    websites that help my clients achieve their business goals."
                 </p>
                 <div className="about__button-container">
                     <button 
                         className="about__button--hire"
                         data-toggle={props.toggle}
                     >
-                        <a href="">
+                        <a href="#contact">
                             Hire Me
                         </a>
                     </button>

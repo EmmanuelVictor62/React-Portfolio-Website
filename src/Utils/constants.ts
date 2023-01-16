@@ -1,13 +1,9 @@
-import firstSlideImg from '../Images/man&laptop2.jpeg'
-import secondSlideImg from '../Images/laptop.jpeg'
-import thirdSlideImg from '../Images/laptopanddesktop.webp'
-import GodsWillImg from '../Images/GodsWill.png'
-import jetBrainsImg from '../Images/Jetbrain.png'
+import GodsWillImg from '../Images/GodsWill.jpg'
+import jetBrainsImg from '../Images/Jetbrain.jpg'
 import formImg from '../Images/form.png'
 import airbnbImg from '../Images/Airbnb.png'
-import appleImg from '../Images/Apple.png'
-import burgerKingImg from '../Images/BurgerKing.png'
-import portfolioImg from '../Images/portfolio.png'
+import appleImg from '../Images/Apple.jpg'
+import portfolioImg from '../Images/portfolio.jpg'
 import JaneImg from '../Images/Jane.webp'
 
 export const Link = [
@@ -39,7 +35,6 @@ export const Link = [
 
 export const homePageContent = [
     {
-        backgroudImage:firstSlideImg,
         heading:[
             'Hello, I am Emmanuel',
             'A Frontend Developer',

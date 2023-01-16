@@ -16,7 +16,7 @@ export const Home = (props:HomeProps) => {
                         words={[
                             'Hello, I am Emmanuel',
                             'A Frontend Developer',
-                            'And A Web Developer'
+                            'And An App Developer'
                         ]}
                         loop={false}
                         cursor
@@ -28,9 +28,9 @@ export const Home = (props:HomeProps) => {
                 </span>
             </p>
             <p className="home-page__description">
-                A Product Designer working at Facebook. 
-                Separated they live in Bookmarksgrove right at the coast 
-                of the Semantics, a large language ocean.
+                A Frontend Developer with 2 years of experience 
+                building and maintaining web applications using 
+                technologies such as HTML, CSS, React and Vue.
             </p>
             <div className="home-page__button-box">
                 <button className="home-page__button">
