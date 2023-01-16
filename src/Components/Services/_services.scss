@@ -48,12 +48,12 @@
 
             @include respond(mobile-screen){
                 flex-direction: column;
-                gap: 20px;
+                gap: 30px;
             }
 
             @include respond(tablet-screen){
                 flex-direction: column;
-                gap: 20px;
+                gap: 30px;
             }
         }
 
