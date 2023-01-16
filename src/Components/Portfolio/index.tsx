@@ -16,10 +16,17 @@ export const Portfolio = () => {
                     return(
                         <div className="portfolio__flip-box" key={index + 1}>
                             <div className="portfolio__flip-box--inner">
-                                <div 
-                                    style={{backgroundImage:`url(${flipBox.img})`}} 
+                                {/* <div 
+                                    // style={{backgroundImage:`url(${flipBox.img})`}} 
                                     className="portfolio__flip-box--front"
-                                ></div>
+                                ></div> */}
+                                <div className="portfolio__flip-box--front">
+                                    <img 
+                                        src={`${flipBox.img}`}
+                                        loading='lazy'
+                                        className='portfolio__flip-box--front-image'
+                                    />
+                                </div>
                                 <div className="portfolio__flip-box--back">
                                     <p className="portfolio__flip-box--heading">
                                         {flipBox.heading}
