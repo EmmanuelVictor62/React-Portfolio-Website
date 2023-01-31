@@ -6,7 +6,7 @@
     padding:4em 0em 6em 0em;
 
     &[data-toggle='true']{
-        background-color: rgb(28,41,59);
+        background-color: $col-dark-global;
         color: $col-white;
     }
 

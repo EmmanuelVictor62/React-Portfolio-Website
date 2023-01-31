@@ -25,21 +25,21 @@ export const About = (props:AboutMeProps) => {
                     A Bit About Me
                 </p>
                 <p className="about__description-content">
-                    Hi there, I am <strong>Emmanuel Victor,</strong> a highly 
-                    motivated frontend developer with 2 years of experience in 
-                    creating and maintaining high-quality, 
-                    responsive websites for a variety of clients.
+                    Hi there, I am <strong>Emmanuel Victor</strong>, a highly motivated 
+                    frontend developer with 2 years of experience creating 
+                    and maintaining high-quality, responsive websites for 
+                    various clients.
                 </p>
                 <p className="about__description-content">
                     I have a strong background in web design, 
                     user experience, and search engine optimization, 
                     and I am passionate about creating visually 
-                    appealing and user-friendly websites that are 
+                    appealing and user-friendly websites 
                     optimized for search engines.
                 </p>
                 <p className="about__description-content">
                     I have a solid understanding of WordPress, HTML, CSS, JavaScript, React.js,
-                    React redux, Scss, Storybookjs and VueJS.
+                    React-Redux, Scss, Storybookjs and Typescript.
                 </p>
                 <p className="about__description-content">
                     I am a team player and I am able to work well under pressure, 
@@ -61,7 +61,10 @@ export const About = (props:AboutMeProps) => {
                     </button>
                     <button 
                         className="about__button--download">
-                        <a href="">
+                        <a 
+                            href="https://drive.google.com/file/d/1IMnCaDChEVahRk5l4DYSEJhYdYI8mLdJ/view?usp=sharing"
+                            target={'_blank'}
+                            >
                             Download CV
                         </a>
                     </button>

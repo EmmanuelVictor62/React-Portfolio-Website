@@ -34,11 +34,14 @@ export const Home = (props:HomeProps) => {
             </p>
             <div className="home-page__button-box">
                 <button className="home-page__button">
-                    <a href="">
+                    <a href="#contact">
                     Start a project
                     </a>  
                 </button>
-                <a href="" className="home-page__link">
+                <a 
+                    href="mailto:royalmanuel62@gmail.com" 
+                    className="home-page__link"
+                >
                     royalmanuel62@gmail.com
                 </a>
             </div>

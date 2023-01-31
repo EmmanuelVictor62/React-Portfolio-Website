@@ -31,14 +31,14 @@ export const Contact = (props:ContactProps) => {
             '3Kp0OppuErcqCxX2C'
         ).then(res => {
             console.log(res)
-            setStatusMessage("Email sent success");
+            setStatusMessage("Thank you for contacting me, I would reply in no time");
         }).catch(err => {
             console.log(err)
             setStatusMessage(`${err.text} happened`);
         })
     }
 
-    
+    // const emailMessage =  
 
     return(
         <div 
@@ -116,7 +116,11 @@ export const Contact = (props:ContactProps) => {
                         value={Message} 
                         required 
                     />
-                    <p>{statusMessage}</p>
+                    <p 
+                    className={statusMessage}
+                    >
+                        {statusMessage}
+                    </p>
                     <button type="submit" value='send' className="contact__form-button">
                         Send Message
                     </button>

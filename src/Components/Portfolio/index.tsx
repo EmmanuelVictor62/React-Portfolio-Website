@@ -25,6 +25,10 @@ export const Portfolio = () => {
                                         src={`${flipBox.img}`}
                                         loading='lazy'
                                         className='portfolio__flip-box--front-image'
+                                        style={{
+                                            height:flipBox.height,
+                                            width:flipBox.width
+                                        }}
                                     />
                                 </div>
                                 <div className="portfolio__flip-box--back">
@@ -34,11 +38,19 @@ export const Portfolio = () => {
                                     <p className="portfolio__flip-box--description">
                                         {flipBox.description}
                                     </p>
-                                    <button className="portfolio__flip-box--button">
-                                        <a href={flipBox.link} target='_blank'>
-                                            View Design
-                                        </a>
-                                    </button>
+                                    <div>
+                                        <button className="portfolio__flip-box--button">
+                                            <a href={flipBox.githubLink} target='_blank'>
+                                                View GitHub File
+                                            </a>
+                                        </button>
+                                        <button className="portfolio__flip-box--button">
+                                            <a href={flipBox.link} target='_blank'>
+                                                View Design
+                                            </a>
+                                        </button>
+                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>

@@ -8,7 +8,6 @@ import { Portfolio } from './Components/Portfolio';
 import { Services } from './Components/Services';
 import { Skills } from './Components/Skills';
 import { Testimonial } from './Components/Testimonial';
-// import "swiper/css/bundle";
 
 function App(){
   const [theme, setTheme] = useState(false)

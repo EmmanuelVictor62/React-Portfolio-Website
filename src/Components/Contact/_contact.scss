@@ -8,7 +8,7 @@
     color: $col-white;
 
     &[data-toggle='true']{
-        background-color: $col-dark-7;
+        background-color: $col-dark-global;
     }
 
     @include respond(mobile-screen){
@@ -84,13 +84,13 @@
         &-container{
             @include slideInRightBasic;
             box-shadow: 0px 21px 41px -13px rgb(0 0 0 / 18%);
-            height: 560px;
+            // height: 560px;
             width: 560px;
             background-color: $col-white;
             border-top-right-radius: 10px;
             border-bottom-right-radius: 10px;
             padding: 3rem;
-            padding-bottom: 0rem;
+            padding-bottom: 1.5rem;
             box-sizing: border-box;
             color: $col-dark;
             animation: slideRight 3.5s ease 0s 1 normal forwards;
@@ -161,6 +161,10 @@
                     width: 95%;
                 }
             }
+        }
+
+        &-status-message{
+            margin: 0;
         }
 
         &-button{
